@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="landingPageStyle.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- POPPINS FONT LINK-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>CarbonCheck - Carbon Footprint Calculator</title>
+
+</head>
+<body>
+
+  <nav>
+    
+    <a href="#home">Home</a>
+    <a href="#features">Features</a>
+    <a href="#about">About</a>
+    <a href="#footer">Contact Us</a>
+  </nav>
+
+  <!-- HOME PAGE -->
+  <section class="imgbg" id="home">
+    <h1 id="title" class="animate__animated animate__bounce">CarbonCheck</h1>
+    <p class="tagline">Track your carbon footprint. Reduce your impact. Save the planet 🌱</p>
+    <a href="calculatorPage.html"><button class="btnTrack">Track Now</button></a>
+  </section> 
+
+  <!-- Learn PAGE -->
+
+  <section id="">
+    <div class="container" data-aos="fade-right">
+      <h2>What is a Carbon Footprint?</h2>
+
+      <iframe width="760" height="415"
+      src="https://www.youtube.com/embed/8q7_aV8eLUE"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+      </iframe>
+
+      <div class="citation">
+      <p><strong>Source:</strong> YouTube/simpleshow</p>
+      <p>
+        Video Link:  
+        <a href="https://youtu.be/8q7_aV8eLUE" target="_blank">
+          https://youtu.be/8q7_aV8eLUE
+        </a>
+      </p>
+
+      <p>
+        <em>Reminder:</em> This video is used for educational purposes. Credit belongs to the original creator.
+      </p>
+    </div>
+      
+    </div>
+  </section>
+  
+
+  <!-- FEATURES PAGE -->
+  <section id="features">
+    <div class="container"  data-aos="fade-left">
+      <h2>Website Features</h2>
+
+      <!-- FEATURE 2 -->
+      <div class="feature-box">
+        <h3>📊 Carbon Score System</h3>
+        <p>
+          Users receive a carbon footprint level: Low, Moderate, or High.
+        </p>
+      </div>
+
+      <!-- FEATURE 3 -->
+      <div class="feature-box">
+        <h3>💡 Personalized Eco Tips</h3>
+        <p>
+          The website gives suggestions on how users can reduce their emissions.
+        </p>
+      </div>
+
+      <!-- FEATURE 4 -->
+      <div class="feature-box">
+        <h3>📺 Learn About Carbon Footprint </h3>
+        <p>
+          Watch a simple explainer video to understand CO₂ emissions and their impact on the planet.
+        </p>
+        <!--<button onclick="showSavedResult()">Show Saved Result</button>
+        <p id="savedResult"></p>-->
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container"  data-aos="fade-right">
+      <h1>🌍 CarbonCheck</h1>
+      <p>
+        CarbonCheck is a Carbon Footprint Calculator designed to help users understand
+        how their daily activities affect the environment.
+      </p>
+
+      <p>
+        This project supports <strong>Sustainable Development Goal 13: Climate Action</strong>
+        by encouraging people to reduce their carbon emissions and adopt eco-friendly habits.
+      </p>
+
+      <div class="tips">
+        <h2>Why It Matters</h2>
+        <p>
+          Climate change is one of the biggest global challenges today.
+          Small changes in lifestyle can help reduce environmental damage.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+<section id="footer">
+
+  <div class="containerNav">
+    <h2 id="footerNavHeader">Contact Us</h2>
+    <input type="text" data-aos="fade-up" placeholder="Enter your name" >
+    <input type="text" data-aos="fade-up" data-aos-duration="500" placeholder="Enter your email">
+    <textarea data-aos="fade-up" data-aos-duration="700" placeholder="Write your message here..."></textarea>
+    <button data-aos="fade-up" data-aos-duration="1000">Send</button>
+  </div>
+
+  <div class="containerTrackNow">
+    <h3>Reduce your impact!</h3>
+    <img src="/undraw_lost_teip.svg" alt="Illustration">
+    <a href="calculatorPage.html">
+      <button class="btnTrack"  data-aos="flip-up">Track Now!</button>
+    </a>
+  </div>
+
+  <div class="containerContact">
+    <p>© CarbonCheck 2026</p>
+  </div>
+
+</section>
+  <div id="bigText">
+    <h1>CarbonCheck</h1>
+  </div>
+
+     <script src="function.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+        AOS.init();
+      </script>
+</body>
+</html>

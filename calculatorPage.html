@@ -1,0 +1,77 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="landingPageStyle.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>CarbonCheck - Carbon Footprint Calculator</title>
+
+  </head>
+  <body>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="calculatorPage.html">Calculator</a>
+    </nav>
+
+        <!-- CALCULATOR PAGE -->
+    <section id="calculator">
+      <div class="container" data-aos="zoom-in">
+        <h2>Carbon Footprint Calculator</h2>
+
+        <label>Transportation</label>
+        <select id="transport">
+          <option value="1">Walk / Bike</option>
+          <option value="2">Public Transport</option>
+          <option value="3">Car / Motorcycle</option>
+        </select>
+
+        <label>Electricity Usage</label>
+        <select id="electricity">
+          <option value="1">Low</option>
+          <option value="2">Moderate</option>
+          <option value="3">High</option>
+        </select>
+
+        <label>Diet</label>
+        <select id="diet">
+          <option value="1">Plant-based</option>
+          <option value="2">Mixed Diet</option>
+          <option value="3">Meat-heavy</option>
+        </select>
+
+        <button onclick="calculateFootprint()">Calculate</button>
+
+        <div id="result"></div>
+        <div class="tips" id="tipsSection" data-aos="flip-up">
+
+        <h1 id="head1"></h1>
+        <p id="tip1"></p>
+        <p id="tip2"></p>
+        <p id="tip3"></p>
+
+        <h1 id="head2"></h1>
+        <p id="elec1"></p>
+        <p id="elec2"></p>
+        <p id="elec3"></p>
+
+        <h1 id="head3"></h1>
+        <p id="diet1"></p>
+        <p id="diet2"></p>
+        <p id="diet3"></p>
+        
+
+        <p id="saved"></p>
+
+      </div>
+        
+
+        <script src="function.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+  </body>
+  </html>
+

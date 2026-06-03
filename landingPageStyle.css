@@ -1,0 +1,274 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+    .imgbg {
+      background-image: url('/bgEco(1).jpg');
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+    }
+
+    body {
+      background: #e8f5e9;
+      color: #222;
+    }
+
+
+    nav {
+      background: #1b5e20;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      gap: 50px;
+      position: sticky;
+      z-index: 1000;
+      top: 0;
+    }
+
+    #title {
+      color: white;
+      font-size: 68px;
+      text-align: start;
+      padding-top: 40vh;
+      padding-left: 5%;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    } 
+
+    .tagline {
+      font-size: 1.5rem;
+      padding-left: 5%;
+      color: white;
+      margin-top: -40px;
+      opacity: 0.9;
+    }
+
+    .btnTrack {
+      width: 150px;
+      margin-left: 5%;
+      margin-top: -10px;
+      padding: 12px 30px;
+      background: #2e7d32;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: medium;
+      padding-bottom: 5px;
+      transition: 0.3s;
+    }
+
+    nav a:hover,
+    nav a.active {
+    color: #c8e6c9;
+    box-shadow: 0 3px 0 white;
+    } 
+
+    section {
+      min-height: 100vh;
+      padding: 60px 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #1b5e20;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    select, input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 20px;
+      padding: 12px;
+      background: #2e7d32;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #1b5e20;
+    }
+
+    #result {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .tips {
+      background: #f1f8e9;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+
+
+    
+    .feature-box {
+      background: #f1f8e9;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+    .containerNav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .containerNav input {
+    width: 70%;
+  }
+
+  .containerNav textarea {
+    width: 70%;
+  }
+  .containerNav button {
+    margin-top: -2px;
+    background: #2e7d32;
+    width: 120px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+
+  .containerTrackNow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px; /* controls spacing */
+  color: white;
+  text-align: center;
+}
+
+.containerTrackNow h3 {
+  margin: 0;
+}
+
+.containerTrackNow img {
+  width: 180px;
+  height: auto;
+}
+
+.containerTrackNow .btnTrack {
+  margin: 0;
+}
+
+
+
+    #footer {
+    background: #1b5e20;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+    min-height: 400px;
+  }
+
+    .containerNav,
+    .containerTrackNow,
+    .containerContact {
+      flex: 1;
+    }
+
+    #footer a {
+      color: white;
+      text-decoration: none;
+      font-weight: medium;
+      padding-bottom: 5px;
+      transition: 0.3s;
+    }
+
+    #footerNavHeader {
+      color: white;
+    }
+
+   
+
+    #footer button:hover {
+      background: white;
+      color:#2e7d32;
+    }
+
+    .containerContact {
+      display: flex;
+      justify-content: flex-end;
+      color: white;
+      text-align: right;
+    }
+
+    
+
+    #bigText {
+      text-align: center;
+    
+
+    }
+    #bigText h1{
+      padding-top: 20px;
+      font-size: 105px;
+    }
+    
+
+    textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: vertical; /* user can resize height only */
+  outline: none;
+}
