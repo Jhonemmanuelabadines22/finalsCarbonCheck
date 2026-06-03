@@ -6,7 +6,7 @@
       scroll-behavior: smooth;
     }
     .imgbg {
-      background-image: url('/bgEco(1).jpg');
+      background-image: url('bgEco(1).jpg');
       background-attachment: fixed;
       background-size: cover;
       background-position: center;
